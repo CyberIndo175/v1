@@ -1,0 +1,39 @@
+clear
+echo "############################"
+echo "#          We Are          #"
+echo "#                          #"
+echo "#        C  B  H  I        #"
+echo "#    __________________    #"
+echo "# Cyber Hacking Indonesia  #"
+echo "#                          #"
+echo "############################"
+echo "©Copyright 2K20 || CBHI"
+echo
+echo "# Thanks To :"
+echo "@Mr_!nSt4rneXt1"
+echo "@Mr.Noname"
+echo "@Skezking175"
+echo "@Mr.CuTS"
+echo "@Mr.Bl4cKpH4nT0m"
+echo "@Mr_FoxCr1m3"
+echo "@Mr.Br1Git0N"
+echo "@Mr_Ex4CyB3r404"
+echo "@Mr.Ex41c0k404"
+echo "@Mr_4F0ur1St"
+echo "[•] Dll"
+echo
+echo "############################"
+read -p"[Back] y/n?: " p
+
+if [ $p = y ] || [ $p = Y ];then
+sleep 1
+bash v2.sh
+fi
+
+if [ $p = n ] || [ $p = N ];then
+sleep 1
+clear
+cd /data/data/com.termux/files/home
+login
+exit
+fi
