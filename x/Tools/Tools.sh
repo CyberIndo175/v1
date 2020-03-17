@@ -287,8 +287,10 @@ eval; python2 trojans.py
 fi
 
 if [ $p = 25 ];then
+z= git clone https://github.com/ibnusyawall/spam-wa
 eval; cd spam-wa
 eval; node index.js
+
 fi
 
 if [ $p = 00 ] || [ $p = 0 ];then
