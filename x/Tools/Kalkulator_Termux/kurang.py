@@ -1,0 +1,5 @@
+kontol = input('masukkan angka ke 1 : ')
+memek  = input('masukkan angka ke 2 : ')
+num1 = int(kontol)
+num2 = int(memek)
+print(num1, '-', num2, '=', num1 - num2)
