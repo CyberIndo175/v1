@@ -1,0 +1,5 @@
+janda = input('masukkan angka ke 1 : ')
+duda  = input('masukkan angka ke 2 : ')
+num1 = int(janda)
+num2 = int(duda)
+print(num1, '+', num2, '+', num1 + num2)
