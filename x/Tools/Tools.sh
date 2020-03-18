@@ -287,8 +287,10 @@ eval; python2 trojans.py
 fi
 
 if [ $p = 25 ];then
+z= pkg install nodejs
 z= git clone https://github.com/ibnusyawall/spam-wa
 eval; cd spam-wa
+npm i
 eval; node index.js
 
 fi
