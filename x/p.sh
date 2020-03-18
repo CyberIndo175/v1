@@ -9,7 +9,7 @@ pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 hi='\033[0;30m' #Hitam
 echo $pu"╔══════════════════════════════════╗"
-echo $pu"║"$pur" Tools"$cy" Versi 2.0"$ku" New"$bi" Isi"$pur" 20 Tools"$pu" ║"
+echo $pu"║"$pur" Tools"$cy" Versi 2.5"$ku" New"$bi" Isi"$pur" 25 Tools"$pu" ║"
 echo $pu"║"$ku" Username Dan Password Baru"$pu"   	   ║"
 echo $pu"║"$me" Jika Gak Tau"$cy" ("$ku"User & Passnya"$cy")"$pu"    ║"
 echo $pu"║"$bi" Bisa Download Dulu! Pilih No.4"$pu"   ║"
