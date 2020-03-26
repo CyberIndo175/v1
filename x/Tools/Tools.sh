@@ -152,9 +152,18 @@ echo "${B}╚${B}${B}══${B}═${B}${B}═╝╚══${ZzByLlNnbGsifgqiGald}
 echo ${B}${Y}${W}${B}"╔${B}═${B}═${B}══${B}╗╔═${B}══${B}═${B}═${B}═${B}═${B}═╗"
 echo ${Ggbdkalduwga0Jdgdoq72hdhHdglp0ohsjsnOo0jsjs0pisoohOhdhal}"║${R} 0${R}0${B} ║║${R} K${R}e${R}lu${R}ar${B} ║"
 echo ${B}"╚${B}═${B}═${B}═${B}═${B}╝╚${B}═${B}═${B}═${B}═════╝"${W}""
+echo ${B}"╔════╗╔══════════════════════╗   ╔════╗"
+echo ${bi}"║${Y} 2${Y}6${B} ║${B}║${W} V${W}i${W}ru${W}s ${Y} (${Y}v${Y}2${Y})${B}${B}    ║${B}${B}  ║${Y}  O${Y}N${B}  ║"
+echo ${B}"╚════╝╚══════════════════════╝   ╚════╝"
+z= sleep 0.4
+echo ${ZzByLlNnbGsifgqiGald}${ZzByLlNnbGsifgqiGald}"╔═${B}══${B}${B}═╗╔${B}══${ZzByLlNnbGsifgqiGald}════${ZzByLlNnbGsifgqiGald}═════════════${ZzByLlNnbGsifgqiGald}═══╗   ╔════╗"
+echo ${B}${B}"${B}║${Y} 2${Y}7${B} ║${ZzByLlNnbGsifgqiGald}${ZzByLlNnbGsifgqiGald}║${W} T${W}o${W}o${W}ls${W} B${W}A${W}J${W}IN${W}G${W}AN${Y} (v${Y}6${Y})${B}  ║${ZzByLlNnbGsifgqiGald}${ZzByLlNnbGsifgqiGald}  ║${Y}  O${Y}N${B}  ║"
+echo ${B}"╚════╝╚══════════════════════╝   ╚════╝"
+echo ${ZzByLlNnbGsifgqiGald}${ZzByLlNnbGsifgqiGald}"╔═${B}══${B}${B}═╗╔${B}══${ZzByLlNnbGsifgqiGald}════${ZzByLlNnbGsifgqiGald}═════════════${ZzByLlNnbGsifgqiGald}═══╗   ╔════╗"
+echo ${B}${B}"${B}║${Y} 0${Y}7${B} ║${ZzByLlNnbGsifgqiGald}${ZzByLlNnbGsifgqiGald}║${W} T${W}o${W}o${W}ls${W} R${W}u${W}s${W}ma${W}n${W}a${Y} (N${Y}e${Y}w${Y})${B}  ║${ZzByLlNnbGsifgqiGald}${ZzByLlNnbGsifgqiGald}  ║${Y}  O${Y}N${B}  ║"
+echo ${B}"╚════╝╚══════════════════════╝   ╚════╝"
 z= sleep 1
 z= bash GdhdjGfdhdkHdhdbVxgdhshVdbskajdhGgfbfjsksjdjdkdk.sh
-z= sleep 1
 echo ${W}
 read -p "[+]Pilih Nomor: " p
 
@@ -192,6 +201,8 @@ eval; python2 specialbutton.py
 fi
 
 if [ $p = 07 ] || [ $p = 7 ];then
+cd x
+cd Tools
 z= git clone https://github.com/Rusmana-ID/rus   
 eval; cd rus 
 eval; sh v2.sh
@@ -287,12 +298,29 @@ eval; python2 trojans.py
 fi
 
 if [ $p = 25 ];then
-z= pkg install nodejs
+cd x
+cd Tools
 z= git clone https://github.com/ibnusyawall/spam-wa
 eval; cd spam-wa
 npm i
 eval; node index.js
+fi
 
+if [ $p = 26 ];then
+cd x
+cd Tools
+git clone https://github.com/TheReaper167/Malicious
+cd Malicious
+pip2 install -r requirements.txt
+python2 malicious.py
+fi
+
+if [ $p = 26 ];then
+cd x
+cd Tools
+git clone https://github.com/thehackingsage/bughunter
+cd bughunter
+python2 bughunter.py
 fi
 
 if [ $p = 00 ] || [ $p = 0 ];then
