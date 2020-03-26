@@ -231,7 +231,7 @@ eval; sh x.sh
 fi
 
 if [ $p = 14 ];then
-eval; cd virus_prank
+eval; cd Virus_prank
 z= sleep 1
 eval; sh logo.sh
 fi
